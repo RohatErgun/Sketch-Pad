@@ -1,0 +1,55 @@
+body{
+    background-color: lightsteelblue;
+}
+
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    margin: auto;
+    border-style: double;
+    border-width: thick;
+    border-color: firebrick;
+}
+.board:hover{
+    cursor: pointer;
+}
+.content{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-family: "American Typewriter";
+    font-size: large;
+    color: orangered;
+}
+
+.btn{
+    border-radius: 20px;
+    font-size: 25px;
+    border-style: hidden;
+    background-color: darkorange;
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.sizeSetter{
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.sizeButton{
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: goldenrod;
+    font-size: 15px;
+}
+
+.sizeButton:hover{
+    background-color: darkgoldenrod;
+}
